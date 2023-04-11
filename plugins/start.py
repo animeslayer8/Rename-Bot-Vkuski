@@ -18,15 +18,15 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/WebXBots'),
-        InlineKeyboardButton(' Support', url='https://t.me/Web_X_Support')
+        InlineKeyboardButton(' Updates', url='https://t.me/Anime_complex'),
+        InlineKeyboardButton(' Support', url='https://t.me/Teamwarlords')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/DCinemasz')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/Anime_Movies_4K')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Divin_Dass')
+        InlineKeyboardButton("⚡ Subscribe ⚡", url='https://t.me/Anime_complex')
         ]
         ])
     if START_PIC:
@@ -72,15 +72,15 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/WebXBots'),
-        InlineKeyboardButton(' Support', url='https://t.me/Web_X_Support')
+        InlineKeyboardButton(' Updates', url='https://t.me/Anime_complex'),
+        InlineKeyboardButton(' Support', url='https://t.me/Teamwarlords')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/DCinemasz')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/Anime_Movies_4K')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Divin_Dass')
+        InlineKeyboardButton("⚡ Subscribe ⚡", url='https://www.youtube.com/@Divin_Dass')
         ]
         ]
                 )
@@ -89,7 +89,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/DCinemasz")
+               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/Anime_Movies_4K")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -112,7 +112,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/DCinemasz")
+                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/Anime_Movies_4K")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
