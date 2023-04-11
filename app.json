@@ -2,42 +2,42 @@
     "name": "WebX Renamer Bot",
     "description": "Telegram File Renamer Bot ",
     "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/WebX-Divin/Rename-Bot-V1.0",
+    "repository": "https://github.com/katsuki/RenameVkuski",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "7165358"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "304228f1dc7b9c86ef1c8d83cdc5da85"
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
-            "required": false 
+            "value": "Anime_Complex",
+            "required": true 
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "5855727827:AAFFpnWWCClcVrZ7TzPbi9XVrGcTWdjduts"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split",
-            "value": ""
+            "value": "6014086787"
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
+            "value": "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "Cluster0",
+            "value": "EXONTESTMONGO",
             "required": false
         },
         "START_PIC": {
             "description": "Your Bot start cmd Pic",
-            "value": "",
-            "required": false
+            "value": "https://telegra.ph/file/19467bbc490900f8a29ba.jpg",
+            "required": true
         }
     },
     "buildpacks": [
