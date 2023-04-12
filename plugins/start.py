@@ -80,7 +80,7 @@ async def cb_handler(client, query: CallbackQuery):
         ],[
         InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/Anime_Movies_4K')
         ],[
-        InlineKeyboardButton("⚡ Subscribe ⚡", url='https://www.youtube.com/@Divin_Dass')
+        InlineKeyboardButton("⚡ Subscribe ⚡", url='https://t.me/Anime_complex')
         ]
         ]
                 )
