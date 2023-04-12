@@ -6,7 +6,7 @@ API_ID = os.environ.get("API_ID", "7165358")
 
 API_HASH = os.environ.get("API_HASH", "304228f1dc7b9c86ef1c8d83cdc5da85")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6131215916:AAGF2qv7UvT6ongrvbcxBNkuHhpq3jBAULo") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6190065172:AAGBbeYQqSdYHd7xokw9337q7SS0Lwlak80") 
 
 FORCE_SUB = os.environ.get("FORCE_SUB", "Anime_complex") 
 
