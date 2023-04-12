@@ -72,6 +72,9 @@ python3 bot.py
  - Go to Render and Create a new web service and turn of Auto Deploy.
  - Then scroll down and click on the 'Create Web Service' Button.
  - That's it. You're Done.
+ 
+ 
+ ### Deploy on Heroku: [![Name](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=Link)
 
 
 ###  Commands
