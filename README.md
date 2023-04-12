@@ -24,6 +24,13 @@
 ### Deploy on VPS
 
  * Clone the Repo.
+ 
+ ### Deploy to Render 
+  <a href="https://render.com/deploy?repo=https://github.com/animeslayer8/Rename-Bot-Vkuski">
+
+  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+
+</a>
 
 ```
 git clone https://github.com/WebX-Divin/Rename-Bot-V1.0
